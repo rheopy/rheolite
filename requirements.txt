@@ -2,6 +2,7 @@ bqplot
 ipycanvas>=0.9.1
 ipyevents>=2.0.1
 ipyleaflet
+ipywebrtc
 ipympl>=0.8.2
 ipywidgets>=8.0.0,<9
 jupyterlab~=3.5.0
