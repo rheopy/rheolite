@@ -196,7 +196,7 @@ def fit_linear_caber(t, r, strike_len_s=0.1, fps=100, surface_tension=40e-3, eta
     """
     
     # Find the index where the radius starts to decrease
-    start_decrease = np.argmax(np.diff(r) < 0)
+    start_decrease = np.argmax(np.diff(r)<min(np.diff(r))*0.9)
     strike_len_frame = int(strike_len_s * fps)
     start_fit = strike_len_frame + start_decrease
     t_exp = t - t[start_fit]
