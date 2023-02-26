@@ -25,6 +25,7 @@ jobs:
           pip install jupyterlab-github
           jupyter labextension install jupyterlab-spreadsheet
           pip install jupyterlab-filesystem-access
+          pip install jupyterlab_rise
 
       - name: Build the JupyterLite site
         run: |
