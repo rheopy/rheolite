@@ -4,8 +4,6 @@ test static HTML site at https://marcocaggioni.github.io/rheolite2/lab/index.htm
 
 # Rheology playground
 
-Since this is a static website - always available - is a good place to have a curated set of notebook ready to run. Even if pyodide is able to run a subset of the python packages in the datascience echosystem, the most important for routine analysis are working perfectly. 
-
 In this playground we collect a set of notebook and test data to share analysys workflow through pyodyde executable notebook. The user can run the notebook directly on jupyterlite!
 
 The example notebooks can be used as training material directly in the jupyterlite environment. Each user will access the static HTML site and perform the analysis in the browser.
