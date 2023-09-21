@@ -21,12 +21,6 @@ jobs:
       - name: Install the dependencies
         run: |
           python -m pip install -r requirements.txt
-          jupyter labextension install jupyter-webrtc
-          pip install jupyterlab-github
-          jupyter labextension install jupyterlab-spreadsheet
-          pip install jupyterlab-filesystem-access
-          pip install jupyterlab_rise
-
       - name: Build the JupyterLite site
         run: |
           cp README.md content
