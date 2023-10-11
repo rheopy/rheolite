@@ -4,6 +4,7 @@ test static HTML site at https://rheopy.github.io/rheolite/lab/index.html
 
 # Rheology playground
 
+
 In this playground we collect a set of notebook and test data to share analysys workflow through pyodyde executable notebook. The user can run the notebook directly on jupyterlite!
 
 The example notebooks can be used as training material directly in the jupyterlite environment. Each user will access the static HTML site and perform the analysis in the browser.
