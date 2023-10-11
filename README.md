@@ -1,6 +1,6 @@
 # Rheolite Demo
 
-test static HTML site at https://marcocaggioni.github.io/rheolite2/lab/index.html
+test static HTML site at https://rheopy.github.io/rheolite/lab/index.html
 
 # Rheology playground
 
