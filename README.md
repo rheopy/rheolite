@@ -27,5 +27,5 @@ mindmap
     (rheoAI)
       Machine Learning and AI aplication in the rheology domain
     (rheoflow)
-      Non-newtonian fluids calculations
+      Non Newtonian fluids calculations
 ```
