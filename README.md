@@ -13,6 +13,7 @@ The user can also modify the notebooks in the familiar jupyterlab environment, u
 
 The experience is the same across OS, no requirement to install anything, it should work on mobile devices too.
 
+
 ```mermaid
 mindmap
   root((rheopy))
