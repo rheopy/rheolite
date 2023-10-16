@@ -26,6 +26,8 @@ jupyterlab-geojson>=3,<4
 # JupyterLab: guided tour (optional)
 jupyterlab-tour
 # JupyterLab: dark theme
+
+
 jupyterlab-night
 # JupyterLab: Miami nights theme (optional)
 # jupyterlab_miami_nights
@@ -45,5 +47,6 @@ ipyleaflet
 plotly>=5,<6
 bqplot
 
-jupyterlab_rise
+#jupyterlab_rise
+#jupyterlab-github
 
