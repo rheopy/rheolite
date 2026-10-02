@@ -32,6 +32,8 @@ ipywidgets>=8.1.3,<9
 ipyevents>=2.0.1,<3
 # Python: interative Matplotlib library for Jupyter notebooks
 ipympl>=0.8.2,<0.10
+# Python: Matplotlib itself — ipympl needs it for the widget backend
+matplotlib>=3.8,<4
 # Python: ipycanvas library for Jupyter notebooks
 ipycanvas>=0.9.1,<0.14
 # Python: ipyleaflet library for Jupyter notebooks
