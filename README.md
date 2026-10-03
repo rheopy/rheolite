@@ -25,8 +25,6 @@ mindmap
       Tools to perform non linear regression to fit and visualize model and data
     (Rheodata)
       Collection of rheology data in a tidy data structure form to enable training experiences
-    (rheoAI)
-      Machine Learning and AI aplication in the rheology domain
     (rheoflow)
       Non Newtonian fluids calculations
 ```
