@@ -2,6 +2,30 @@
 
 static HTML site at https://rheopy.github.io/rheolite/lab/index.html
 
+## Local development
+
+Install [uv](https://docs.astral.sh/uv/) and Python 3.12. From the repository root,
+sync the locked JupyterLite and JupyterLab environment, then open the notebooks:
+
+```powershell
+uv sync --locked
+uv run jupyter lab content
+```
+
+Notebook-specific analysis packages are installed by the notebooks when needed;
+they are not part of the base `uv sync` environment.
+
+To build and preview the static JupyterLite site locally:
+
+```powershell
+uv run jupyter lite build --contents content --output-dir dist
+uv run python -m http.server 8000 --directory dist
+```
+
+Open <http://localhost:8000/lab/index.html> in a browser and press `Ctrl+C` to stop
+the preview server. The GitHub Pages workflow uses the committed `uv.lock` and
+builds the notebooks in `content/` on pushes to `main`.
+
 # Rheology playground
 
 
